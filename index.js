@@ -33,7 +33,7 @@ yargs.command({
   builder: {
     id: {
       type: "string",
-      describe: "Not id",
+      describe: "Note id",
       demandOption: true,
     },
   },
