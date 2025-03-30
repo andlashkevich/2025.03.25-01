@@ -40,7 +40,7 @@ async function removeNote(ind) {
 
   const i = notes.findIndex((it) => it.id === ind);
   i < 0 ? 0 : notes.splice(i, 1);
-  saveNotes(notes);
+  await saveNotes(notes);
 }
 
 module.exports = {
